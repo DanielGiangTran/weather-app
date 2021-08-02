@@ -28,7 +28,8 @@ app.get("", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
-    helpText: "This is the help text",
+    helpText: "To understand how this app was developed, please visit:",
+    githubLink: "https://github.com/DanielGiangTran/weather-app",
   });
 });
 app.get("/about", (req, res) => {

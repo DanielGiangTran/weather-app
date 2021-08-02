@@ -46,3 +46,6 @@ button {
   color: white;
   padding: 8px;
 }
+p a {
+  margin-top: 20px;
+}
